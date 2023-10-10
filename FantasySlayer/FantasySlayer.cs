@@ -15,7 +15,7 @@ namespace FantasySlayer
 
         public FantasySlayer(string filePath)
         {
-            (Team team1, Team team2) teams = this.loadTeams(filePath);
+            (Team team1, Team team2) teams = this.LoadTeams(filePath);
             this.team1 = teams.team1;
             this.team2 = teams.team2;
         }
@@ -35,7 +35,7 @@ namespace FantasySlayer
             return "Come on, just do better.";
         }
 
-        private (Team, Team) loadTeams(string filePath)
+        private (Team, Team) LoadTeams(string filePath)
         {
             var teamData = new TeamConfig { };
             using (StreamReader r = new StreamReader(filePath))

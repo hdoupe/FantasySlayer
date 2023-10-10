@@ -1,4 +1,4 @@
-﻿FantasySlayer.FantasySlayer fantasy = new(@"C:\git\FantasySlayer\FantasySlayer\teamConfig.json");
+﻿FantasySlayer.FantasySlayer fantasy = new(@"C:\git\FantasySlayer\FantasySlayer\exampleTeamConfig.json");
 
 Console.WriteLine(fantasy);
 Console.WriteLine("Probability of winning: " + fantasy.CalculateWinProbability());
