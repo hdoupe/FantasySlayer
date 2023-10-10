@@ -1,0 +1,234 @@
+{
+  "team1": {
+    "players": [
+      {
+        "Name": "J. Burrow",
+        "IsAvailable": true,
+        "IsBenched": false,
+        "Position": "QB",
+        "ProjectedPoints": 18.96
+      },
+      {
+        "Name": "A. Kamara",
+        "IsAvailable": true,
+        "IsBenched": false,
+        "Position": "RB",
+        "ProjectedPoints": 13.9
+      },
+      {
+        "Name": "K. Gainwell",
+        "IsAvailable": true,
+        "IsBenched": false,
+        "Position": "RB",
+        "ProjectedPoints": 5.22
+      },
+      {
+        "Name": "D. London",
+        "IsAvailable": true,
+        "IsBenched": false,
+        "Position": "WR",
+        "ProjectedPoints": 13.17
+      },
+      {
+        "Name": "R. Doubs",
+        "IsAvailable": false,
+        "IsBenched": false,
+        "Position": "WR",
+        "ProjectedPoints": 0
+      },
+      {
+        "Name": "M. Andrews",
+        "IsAvailable": true,
+        "IsBenched": false,
+        "Position": "TE",
+        "ProjectedPoints": 11.85
+      },
+      {
+        "Name": "D. Montgomery",
+        "IsAvailable": true,
+        "IsBenched": false,
+        "Position": "RB",
+        "ProjectedPoints": 13.00
+      },
+      {
+        "Name": "J. Warren",
+        "IsAvailable": false,
+        "IsBenched": false,
+        "Position": "RB",
+        "ProjectedPoints": 0
+      },
+      {
+        "Name": "J. Sanders",
+        "IsAvailable": true,
+        "IsBenched": false,
+        "Position": "K",
+        "ProjectedPoints": 9.72
+      },
+      {
+        "Name": "NO Defense",
+        "IsAvailable": true,
+        "IsBenched": false,
+        "Position": "DEF",
+        "ProjectedPoints": 7.75
+      },
+      {
+        "Name": "D. Watson",
+        "IsAvailable": true,
+        "IsBenched": true,
+        "Position": "QB",
+        "ProjectedPoints": 17.09
+      },
+      {
+        "Name": "A. Ekeler",
+        "IsAvailable": true,
+        "IsBenched": true,
+        "Position": "RB",
+        "ProjectedPoints": 18.96
+      },
+      {
+        "Name": "S. Barkley",
+        "IsAvailable": false,
+        "IsBenched": true,
+        "Position": "RB",
+        "ProjectedPoints": 14.56
+      },
+      {
+        "Name": "A. Cooper",
+        "IsAvailable": true,
+        "IsBenched": true,
+        "Position": "WR",
+        "ProjectedPoints": 12.38
+      },
+      {
+        "Name": "E. Moore",
+        "IsAvailable": true,
+        "IsBenched": true,
+        "Position": "WR",
+        "ProjectedPoints": 10.53
+      },
+      {
+        "Name": "J. Smith-Njigba",
+        "IsAvailable": false,
+        "IsBenched": true,
+        "Position": "WR",
+        "ProjectedPoints": 9.01
+      }
+    ]
+  },
+  "team2": {
+    "players": [
+      {
+        "Name": "P. Mahomes",
+        "IsAvailable": true,
+        "IsBenched": false,
+        "Position": "QB",
+        "ProjectedPoints": 23.79
+      },
+      {
+        "Name": "T. Pollard",
+        "IsAvailable": true,
+        "IsBenched": false,
+        "Position": "RB",
+        "ProjectedPoints": 16.87
+      },
+      {
+        "Name": "J. Conner",
+        "IsAvailable": true,
+        "IsBenched": false,
+        "Position": "RB",
+        "ProjectedPoints": 13.91
+      },
+      {
+        "Name": "D. Hopkins",
+        "IsAvailable": true,
+        "IsBenched": false,
+        "Position": "WR",
+        "ProjectedPoints": 11.52
+      },
+      {
+        "Name": "C. Ridley",
+        "IsAvailable": true,
+        "IsBenched": false,
+        "Position": "WR",
+        "ProjectedPoints": 13.70
+      },
+      {
+        "Name": "K. Pitts",
+        "IsAvailable": true,
+        "IsBenched": false,
+        "Position": "TE",
+        "ProjectedPoints": 9.25
+      },
+      {
+        "Name": "J. Smith-Schuster",
+        "IsAvailable": true,
+        "IsBenched": false,
+        "Position": "RB",
+        "ProjectedPoints": 6.33
+      },
+      {
+        "Name": "T. Burks",
+        "IsAvailable": true,
+        "IsBenched": false,
+        "Position": "WR",
+        "ProjectedPoints": 7.86
+      },
+      {
+        "Name": "H. Butker",
+        "IsAvailable": true,
+        "IsBenched": false,
+        "Position": "K",
+        "ProjectedPoints": 9.87
+      },
+      {
+        "Name": "BAL Defense",
+        "IsAvailable": true,
+        "IsBenched": false,
+        "Position": "DEF",
+        "ProjectedPoints": 8.32
+      },
+      {
+        "Name": "T. Tagovailoa",
+        "IsAvailable": true,
+        "IsBenched": true,
+        "Position": "QB",
+        "ProjectedPoints": 19.58
+      },
+      {
+        "Name": "T. Allgeier",
+        "IsAvailable": true,
+        "IsBenched": true,
+        "Position": "RB",
+        "ProjectedPoints": 6.70
+      },
+      {
+        "Name": "T. Bigsby",
+        "IsAvailable": true,
+        "IsBenched": true,
+        "Position": "RB",
+        "ProjectedPoints": 2.42
+      },
+      {
+        "Name": "M. Williams",
+        "IsAvailable": true,
+        "IsBenched": true,
+        "Position": "WR",
+        "ProjectedPoints": 0
+      },
+      {
+        "Name": "A. St. Brown",
+        "IsAvailable": true,
+        "IsBenched": true,
+        "Position": "WR",
+        "ProjectedPoints": 15.88
+      },
+      {
+        "Name": "D. Kincaid",
+        "IsAvailable": true,
+        "IsBenched": true,
+        "Position": "TE",
+        "ProjectedPoints": 6.43
+      }
+    ]
+  }
+}
