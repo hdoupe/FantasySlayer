@@ -11,6 +11,7 @@ namespace FantasySlayer
         public FantasySlayer(Team team1, Team team2) {
             this.team1 = team1;
             this.team2 = team2;
+            this.ValidateTeams();
         }
 
         public FantasySlayer(string filePath)
@@ -18,6 +19,7 @@ namespace FantasySlayer
             (Team team1, Team team2) teams = this.LoadTeams(filePath);
             this.team1 = teams.team1;
             this.team2 = teams.team2;
+            this.ValidateTeams();
         }
 
         public double CalculateWinProbability()
@@ -30,9 +32,23 @@ namespace FantasySlayer
             return team1Points > team2Points ? 1 : 0;
         }
 
-        public string SuggestedChanges()
+        public List<String> SuggestedChanges()
         {
-            return "Come on, just do better.";
+            // TODO:
+            // - Flag players that are not playing this week (i.e. IsAvailable is False)
+            // - Flag players that are injured (i.e. IsAvailable is False)
+            // - Flag players that have a lower projected points value than their counterpart
+            //   on the opposing team
+            return new List<string> { "Come on, just do better."};
+        }
+
+        public void ValidateTeams()
+        {
+            // TODO: How could this provide the user with more information?
+            if (!this.team1.IsValid() || !this.team2.IsValid())
+            {
+                throw new Exception("Team data not valid!");
+            }
         }
 
         private (Team, Team) LoadTeams(string filePath)
@@ -42,11 +58,6 @@ namespace FantasySlayer
             {
                 string json = r.ReadToEnd();
                 teamData = JsonConvert.DeserializeObject<TeamConfig>(json);
-            }
-
-            if (teamData is null || !teamData.team1.IsValid() || !teamData.team2.IsValid())
-            {
-                throw new Exception("Team data not valid!");
             }
 
             return (teamData.team1, teamData.team2);

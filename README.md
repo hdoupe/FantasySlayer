@@ -19,6 +19,5 @@ This is a simple console app used to calculate your fantasy football team's win 
     - Up to 6 players on the bench
 
 - [ ] Determine suggested moves:
-  - [ ] Notify me which players are on a bye week
-  - [ ] Notify me which players are questionable
-  - [ ] Notify me which players are projected lower than their counterparts
+  - [ ] Notify me which players are not available to play (e.g. they are injured or on a bye week)
+  - [ ] Notify me which players have a lower projected points than their counterparts
